@@ -1,0 +1,369 @@
+date/time           : 2015-12-10, 20:31:29, 931ms
+operating system    : Windows NT New x64 Service Pack 1 build 7601
+system language     : Chinese (Simplified)
+system up time      : 9 hours 39 minutes
+program up time     : 3 hours 34 minutes
+processors          : 4x Intel(R) Core(TM) i5-3470 CPU @ 3.20GHz
+physical memory     : 3631/8063 MB (free/total)
+free disk space     : (C:) 9.85 GB (D:) 99.85 GB
+display mode        : 1440x900, 32 bit
+process id          : $1ad0
+allocated memory    : 46.14 MB
+executable          : BCompare.exe
+exec. date/time     : 2011-10-20 16:09
+version             : 3.3.3.14128
+compiled with       : Delphi 2007
+madExcept version   : 3.0i beta 2
+Pro edition         : True
+subversion revision : 14128
+callstack crc       : $776fd968, $180770a5, $180770a5
+exception number    : 1
+exception class     : EAccessViolation
+exception message   : Access violation at address 776FD968 in module 'ntdll.dll'. Write of address 00000014.
+
+Main ($3e0):
+776fd968 +099 ntdll.dll
+0097e9af +017 BCompare.exe BcSession       5946   +1 TFileSession.GetEntry
+00866774 +050 BCompare.exe ViewFileSession 1006   +2 IsLocal
+00866849 +031 BCompare.exe ViewFileSession 1021   +1 TFileSessionViewFrame.DoEnableControls
+00a654fe +02e BCompare.exe ViewText        2232   +1 TTextViewFrame.DoEnableControls
+008666ea +022 BCompare.exe ViewFileSession  992   +3 TFileSessionViewFrame.EnableControls
+00a6474e +24a BCompare.exe ViewText        1898  +38 TTextViewFrame.ActiveChanged
+00a64412 +00e BCompare.exe ViewText        1832   +2 TTextViewFrame.Activate
+0087ec6d +011 BCompare.exe FrmView          944   +0 TViewForm.ActiveFrameActivate
+00644639 +051 BCompare.exe UiUtils         4980  +13 TUiPostCallbackHandler.MsgHook
+006af63e +01a BCompare.exe BcForms          751   +1 TBcForm.WndProc
+0087eb8a +036 BCompare.exe FrmView          913   +4 TViewForm.WndProc
+005d7119 +085 BCompare.exe TntControls      666  +19 TWinControlTrap.WindowProc
+004ba290 +02c BCompare.exe Controls        7088   +3 TWinControl.MainWndProc
+0042e98c +014 BCompare.exe Classes                   StdWndProc
+75320d58 +016 USER32.dll                             CallWindowProcW
+005d6d6c +048 BCompare.exe TntControls      554  +12 TWinControlTrap.Win32Proc
+0042e98c +014 BCompare.exe Classes                   StdWndProc
+75317bd5 +00a USER32.dll                             DispatchMessageA
+0046e80d +23d BCompare.exe madExcept                 HandleException
+0047535a +03a BCompare.exe madExcept                 InterceptAHandleExcept
+004ac489 +6ad BCompare.exe Forms           7860 +149 TApplication.WndProc
+776d012e +00a ntdll.dll                              KiUserExceptionDispatcher
+00404db0 +04c BCompare.exe System           581   +0 TObject.GetInterface
+0042da87 +01b BCompare.exe Classes                   TComponent.QueryInterface
+7625788a +07a oleaut32.dll                           SysReAllocStringLen
+00487f1e +002 BCompare.exe SyncObjs         424   +0 TCriticalSection.Enter
+0097cf9e +006 BCompare.exe BcSession       5301   +0 TFileSession.Lock
+00a6566a +19a BCompare.exe ViewText        2251  +20 TTextViewFrame.DoEnableControls
+008666ea +022 BCompare.exe ViewFileSession  992   +3 TFileSessionViewFrame.EnableControls
+00a6474e +24a BCompare.exe ViewText        1898  +38 TTextViewFrame.ActiveChanged
+0087ec53 +01b BCompare.exe FrmView          937   +2 TViewForm.ActiveChanged
+004a6c65 +095 BCompare.exe Forms           4600  +11 TCustomForm.SetActiveControl
+004a6ce8 +03c BCompare.exe Forms           4618   +3 TCustomForm.DefocusControl
+004b9297 +017 BCompare.exe Controls        6561   +2 TWinControl.RemoveFocus
+004b84e1 +04d BCompare.exe Controls        6057   +9 TWinControl.Destroy
+004a2724 +028 BCompare.exe Forms           2364   +3 TScrollingWinControl.Destroy
+008b6c07 +083 BCompare.exe ViewBase         666  +12 TViewFrame.Destroy
+0088160e +07a BCompare.exe ViewSessionBase  473  +11 TSessionViewFrame.Destroy
+00865740 +068 BCompare.exe ViewFileSession  681   +7 TFileSessionViewFrame.Destroy
+00a631d9 +089 BCompare.exe ViewText        1556  +10 TTextViewFrame.Destroy
+00404cb8 +008 BCompare.exe System           581   +0 TObject.Free
+0087e76c +03c BCompare.exe FrmView          772   +4 TViewForm.Destroy
+0042d55f +047 BCompare.exe Classes                   TComponent.DestroyComponents
+004a156e +032 BCompare.exe Forms           1578   +3 DoneApplication
+00405b4d +021 BCompare.exe System           581   +0 @Halt0
+004ac1bc +3e0 BCompare.exe Forms           7788  +77 TApplication.WndProc
+0042e98c +014 BCompare.exe Classes                   StdWndProc
+776d0107 +02b ntdll.dll                              KiUserCallbackDispatcher
+004d6122 +056 BCompare.exe cMicroThreads    368   +6 FiberStartProc
+
+thread $16f0:
+76153378 +10 kernel32.dll  BaseThreadInitThunk
+
+modules:
+00400000 BCompare.exe                             3.3.3.14128        D:\Program Files (x86)\BeyondCompare
+10000000 7zxa.dll                                 4.57.0.0           D:\Program Files (x86)\BeyondCompare
+58110000 olepro32.dll                             6.1.7601.17514     C:\Windows\system32
+5e7d0000 unrar.dll                                3.90.3.168         D:\Program Files (x86)\BeyondCompare
+5ea30000 c_iscii.dll                              6.1.7601.17514     C:\Windows\system32
+648e0000 DUI70.dll                                6.1.7600.16385     C:\Windows\system32
+649a0000 DUser.dll                                6.1.7600.16385     C:\Windows\system32
+649d0000 explorerframe.dll                        6.1.7601.18952     C:\Windows\system32
+69150000 mlang.dll                                6.1.7600.16385     C:\Windows\system32
+6a1e0000 ieframe.dll                              11.0.9600.18125    C:\Windows\SysWOW64
+6e390000 msimg32.dll                              6.1.7600.16385     C:\Windows\system32
+6e410000 dwmapi.dll                               6.1.7601.18917     C:\Windows\system32
+6e760000 tiptsf.dll                               6.1.7601.18984     C:\Program Files (x86)\Common Files\microsoft shared\ink
+6ecf0000 c_g18030.dll                             6.1.7600.16385     C:\Windows\system32
+6ef60000 api-ms-win-downlevel-shell32-l1-1-0.dll  6.2.9200.16492     C:\Windows\SysWOW64
+70750000 uxtheme.dll                              6.1.7600.16385     C:\Windows\system32
+70f80000 ntmarta.dll                              6.1.7600.16385     C:\Windows\system32
+71390000 winspool.drv                             6.1.7601.17514     C:\Windows\system32
+713f0000 mpr.dll                                  6.1.7600.16385     C:\Windows\system32
+72810000 api-ms-win-downlevel-shlwapi-l2-1-0.dll  6.2.9200.16492     C:\Windows\system32
+728b0000 wsock32.dll                              6.1.7600.16385     C:\Windows\system32
+72eb0000 PROPSYS.dll                              7.0.7601.17514     C:\Windows\system32
+72fb0000 comctl32.dll                             6.10.7601.18837    C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.7601.18837_none_41e855142bd5705d
+74890000 c_is2022.dll                             6.1.7600.16385     C:\Windows\system32
+74b40000 winmm.dll                                6.1.7601.17514     C:\Windows\system32
+74dd0000 wkscli.dll                               6.1.7601.17514     C:\Windows\system32
+74de0000 srvcli.dll                               6.1.7601.17514     C:\Windows\system32
+74e00000 netutils.dll                             6.1.7601.17514     C:\Windows\system32
+74e10000 netapi32.dll                             6.1.7601.17887     C:\Windows\system32
+74f30000 version.dll                              6.1.7600.16385     C:\Windows\system32
+75010000 CRYPTBASE.dll                            6.1.7601.19045     C:\Windows\syswow64
+75020000 SspiCli.dll                              6.1.7601.19045     C:\Windows\syswow64
+75080000 LPK.dll                                  6.1.7601.18985     C:\Windows\syswow64
+75090000 MSCTF.dll                                6.1.7601.18731     C:\Windows\syswow64
+75170000 WLDAP32.dll                              6.1.7601.17514     C:\Windows\syswow64
+751c0000 KERNELBASE.dll                           6.1.7601.19045     C:\Windows\syswow64
+75210000 api-ms-win-downlevel-user32-l1-1-0.dll   6.2.9200.16492     C:\Windows\syswow64
+75220000 MSASN1.dll                               6.1.7601.17514     C:\Windows\syswow64
+75230000 msvcrt.dll                               7.0.7601.17744     C:\Windows\syswow64
+752e0000 normaliz.DLL                             6.1.7600.16385     C:\Windows\syswow64
+752f0000 api-ms-win-downlevel-normaliz-l1-1-0.dll 6.2.9200.16492     C:\Windows\syswow64
+75300000 USER32.dll                               6.1.7601.19061     C:\Windows\syswow64
+75400000 SHLWAPI.dll                              6.1.7601.17514     C:\Windows\syswow64
+75460000 ole32.dll                                6.1.7601.18915     C:\Windows\syswow64
+755c0000 WS2_32.dll                               6.1.7601.17514     C:\Windows\syswow64
+75600000 WINTRUST.dll                             6.1.7601.18839     C:\Windows\syswow64
+75660000 USP10.dll                                1.626.7601.19054   C:\Windows\syswow64
+75700000 imm32.dll                                6.1.7601.17514     C:\Windows\syswow64
+75a50000 wininet.dll                              11.0.9600.18124    C:\Windows\syswow64
+75c50000 sechost.dll                              6.1.7601.18869     C:\Windows\SysWOW64
+75c90000 CLBCatQ.DLL                              2001.12.8530.16385 C:\Windows\syswow64
+75d20000 ADVAPI32.dll                             6.1.7601.18939     C:\Windows\syswow64
+75dd0000 profapi.dll                              6.1.7600.16385     C:\Windows\syswow64
+75e10000 NSI.dll                                  6.1.7600.16385     C:\Windows\syswow64
+75eb0000 api-ms-win-downlevel-shlwapi-l1-1-0.dll  6.2.9200.16492     C:\Windows\syswow64
+75ec0000 api-ms-win-downlevel-advapi32-l1-1-0.dll 6.2.9200.16492     C:\Windows\syswow64
+75ed0000 crypt32.dll                              6.1.7601.18839     C:\Windows\syswow64
+76000000 api-ms-win-downlevel-version-l1-1-0.dll  6.2.9200.16492     C:\Windows\syswow64
+76010000 GDI32.dll                                6.1.7601.18898     C:\Windows\syswow64
+760a0000 comdlg32.dll                             6.1.7601.17514     C:\Windows\syswow64
+76120000 USERENV.dll                              6.1.7601.17514     C:\Windows\syswow64
+76140000 kernel32.dll                             6.1.7601.19045     C:\Windows\syswow64
+76250000 oleaut32.dll                             6.1.7601.18679     C:\Windows\syswow64
+762e0000 iertutil.dll                             11.0.9600.18124    C:\Windows\syswow64
+76520000 RPCRT4.dll                               6.1.7601.19045     C:\Windows\syswow64
+76670000 shell32.dll                              6.1.7601.18952     C:\Windows\syswow64
+776c0000 ntdll.dll                                6.1.7601.19045     C:\Windows\SysWOW64
+
+processes:
+0000 Idle                       0 0    0
+0004 System                     0 0    0
+0148 smss.exe                   0 0    0
+01f0 csrss.exe                  0 0    0
+0298 csrss.exe                  1 0    0
+02a0 wininit.exe                0 0    0
+02d0 winlogon.exe               1 0    0
+0300 services.exe               0 0    0
+0308 lsass.exe                  0 0    0
+0310 lsm.exe                    0 0    0
+0374 svchost.exe                0 0    0
+03bc svchost.exe                0 0    0
+0180 svchost.exe                0 0    0
+020c svchost.exe                0 0    0
+0234 svchost.exe                0 0    0
+0264 svchost.exe                0 0    0
+0448 ZhuDongFangYu.exe          0 0    0
+049c svchost.exe                0 0    0
+0588 spoolsv.exe                0 0    0
+05d4 svchost.exe                0 0    0
+0648 DhMachineSvc.exe           0 0    0
+066c DhPluginMgr.exe            0 0    0
+0694 svchost.exe                0 0    0
+06b8 mysqld-nt.exe              0 0    0
+06f0 pcas.exe                   0 0    0
+0790 QQProtect.exe              0 0    0
+0518 svchost.exe                0 0    0
+0548 svnserve.exe               0 0    0
+0654 vmnat.exe                  0 0    0
+026c svchost.exe                0 0    0
+0770 vmnetdhcp.exe              0 0    0
+0814 vmware-usbarbitrator64.exe 0 0    0
+083c vmware-authd.exe           0 0    0
+096c vmware-hostd.exe           0 0    0
+0ae8 WmiPrvSE.exe               0 0    0
+0bc8 taskhost.exe               1 26   22  normal
+09c4 dwm.exe                    1 22   2   high
+0a10 explorer.exe               1 1199 696 normal
+0678 iusb3mon.exe               1 18   7   normal C:\Program Files (x86)\Intel\Intel(R) USB 3.0 eXtensible Host Controller Driver\Application
+0b9c 360tray.exe                1 220  58  normal D:\Program Files (x86)\360\360safe\safemon
+0b7c WPService.exe              1 4    3   normal C:\Program Files\CMBCHINA\WebProtect
+0c08 vmware-tray.exe            1 25   11  normal D:\VMware
+0c90 GWX.exe                    1 18   9   normal
+0d40 TSVNCache.exe              1 9    6   normal
+0f3c SoftMgrLite.exe            1 25   21  normal D:\Program Files (x86)\360\360safe\SoftMgr\SML
+0cf0 svchost.exe                0 0    0
+0c44 QQ.exe                     1 266  239 normal C:\Program Files (x86)\Tencent\QQ\Bin
+0c70 eclipse.exe                1 1081 521 normal
+0e60 TXPlatform.exe             1 9    3   normal C:\Program Files (x86)\Tencent\QQ\Bin
+0e1c QQPYService.exe            1 91   25  normal D:\Tencent\QQPinyin\5.1.2020.400
+1250 360se.exe                  1 416  145 normal C:\Users\Administrator\AppData\Roaming\360se6\Application
+128c wdswfsafe.exe              1 9    3   normal D:\Program Files (x86)\360\360safe\safemon
+0978 360se.exe                  1 10   1   normal C:\Users\Administrator\AppData\Roaming\360se6\Application
+12ec firefox.exe                1 180  142 normal D:\Mozilla Firefox
+14c0 AbsoluteTelnet.exe         1 151  91  normal D:\Program Files (x86)\AbsoluteTelnet\Program
+108c wpscloudsvr.exe            0 0    0
+14f8 SshClient.exe              1 162  132 normal E:\Program Files\SSHSecureShell\SSHSecureShell
+05c0 SshClient.exe              1 163  134 normal E:\Program Files\SSHSecureShell\SSHSecureShell
+139c SshClient.exe              1 84   66  normal E:\Program Files\SSHSecureShell\SSHSecureShell
+145c SshClient.exe              1 165  132 normal E:\Program Files\SSHSecureShell\SSHSecureShell
+13f8 360se.exe                  1 106  81  normal C:\Users\Administrator\AppData\Roaming\360se6\Application
+12e4 SshClient.exe              1 172  134 normal E:\Program Files\SSHSecureShell\SSHSecureShell
+0cec explorer.exe               1 207  149 normal
+1830 explorer.exe               1 200  130 normal
+16d0 explorer.exe               1 191  125 normal
+112c explorer.exe               1 191  126 normal
+1ad0 BCompare.exe               1 194  155 normal D:\Program Files (x86)\BeyondCompare
+1f00 taskhost.exe               1 9    4   normal
+1be8 audiodg.exe                0 0    0
+117c taskeng.exe                1 9    3   normal
+1d30 sppsvc.exe                 0 0    0
+1ebc LogonUI.exe                1 0    0
+
+hardware:
++ Batteries
+  - Microsoft Composite Battery
++ Computer
+  - ACPI x64-based PC
++ Disk drives
+  - WDC WD5000AAKX-08ERMA0 ATA Device
++ Display adapters
+  - Intel(R) HD Graphics (driver 9.18.10.3234)
++ Human Interface Devices
+  - HID-compliant device
+  - HID-compliant device
+  - USB 输入设备
+  - USB 输入设备
+  - 符合 HID 标准的用户控制设备
++ IDE ATA/ATAPI controllers
+  - ATA Channel 0
+  - ATA Channel 0
+  - ATA Channel 1
+  - ATA Channel 1
+  - Intel(R) 7 Series/C216 Chipset Family 2 port Serial ATA Storage Controller - 1E08 (driver 9.3.0.1011)
+  - Intel(R) 7 Series/C216 Chipset Family 4 port Serial ATA Storage Controller - 1E00 (driver 9.3.0.1011)
++ Keyboards
+  - HID Keyboard Device
+  - PS/2 标准键盘
++ Mice and other pointing devices
+  - HID-compliant mouse
++ Monitors
+  - 通用即插即用监视器
++ Network adapters
+  - Realtek PCIe GBE Family Controller (driver 7.73.618.2013)
+  - VMware Virtual Ethernet Adapter for VMnet8 (driver 4.2.1.0)
++ Processors
+  - Intel(R) Core(TM) i5-3470 CPU @ 3.20GHz
+  - Intel(R) Core(TM) i5-3470 CPU @ 3.20GHz
+  - Intel(R) Core(TM) i5-3470 CPU @ 3.20GHz
+  - Intel(R) Core(TM) i5-3470 CPU @ 3.20GHz
++ Sound, video and game controllers
+  - Realtek High Definition Audio (driver 6.0.1.6959)
++ System devices
+  - ACPI Fan
+  - ACPI Fan
+  - ACPI Fan
+  - ACPI Fan
+  - ACPI Fan
+  - ACPI Fixed Feature Button
+  - ACPI Power Button
+  - ACPI Thermal Zone
+  - ACPI Thermal Zone
+  - Direct memory access controller
+  - High Definition Audio 控制器
+  - High precision event timer
+  - Intel(R) 7 Series/C216 Chipset Family PCI Express Root Port 1 - 1E10 (driver 9.3.0.1020)
+  - Intel(R) 7 Series/C216 Chipset Family PCI Express Root Port 5 - 1E18 (driver 9.3.0.1020)
+  - Intel(R) 7 Series/C216 Chipset Family SMBus Host Controller - 1E22 (driver 9.3.0.1027)
+  - Intel(R) 82801 PCI Bridge - 244E
+  - Intel(R) 82802 Firmware Hub Device
+  - Intel(R) B75 Express Chipset LPC Controller - 1E49 (driver 9.3.0.1020)
+  - Intel(R) Management Engine Interface  (driver 8.0.0.1262)
+  - Microsoft ACPI-Compliant System
+  - Microsoft System Management BIOS Driver
+  - Microsoft 虚拟驱动器枚举器驱动程序
+  - Motherboard resources
+  - Motherboard resources
+  - Motherboard resources
+  - Motherboard resources
+  - Motherboard resources
+  - Numeric data processor
+  - PCI 总线 (driver 1.0.9.254)
+  - Plug and Play Software Device Enumerator
+  - Programmable interrupt controller
+  - Remote Desktop Device Redirector Bus
+  - System board
+  - System board
+  - System CMOS/real time clock
+  - System timer
+  - Terminal Server Keyboard Driver
+  - Terminal Server Mouse Driver
+  - UMBus Enumerator
+  - UMBus Enumerator
+  - UMBus Root Bus Enumerator
+  - VMware VMCI Host Device (driver 9.5.10.0)
+  - Volume Manager
+  - Xeon(R) processor E3-1200 v2/3rd Gen Core processor DRAM Controller - 0150 (driver 9.3.0.1011)
+  - 复合总线枚举器
+  - 文件作为卷驱动程序
++ Universal Serial Bus controllers
+  - Generic USB Hub
+  - Generic USB Hub
+  - Intel(R) 7 Series/C216 Chipset Family USB Enhanced Host Controller - 1E26 (driver 9.3.0.1011)
+  - Intel(R) 7 Series/C216 Chipset Family USB Enhanced Host Controller - 1E2D (driver 9.3.0.1011)
+  - USB Composite Device
+  - USB Root Hub
+  - USB Root Hub
+  - 英特尔(R) USB 3.0 根集线器 (driver 1.0.9.254)
+  - 英特尔(R) USB 3.0 可扩展主机控制器 (driver 1.0.9.254)
+
+cpu registers:
+eax = 058aed8c
+ebx = 00000001
+ecx = 058aed8c
+edx = 65636341
+esi = 027fed60
+edi = 058aed8c
+eip = 00407f9a
+esp = 058aed5c
+ebp = 058aed94
+
+stack dump:
+058aed5c  8c ed 8a 05 41 63 63 65 - b4 e9 97 00 d0 2b 5d 05  ....Acce.....+].
+058aed6c  10 ee 8a 05 01 00 00 00 - 79 67 86 00 a0 ed 8a 05  ........yg......
+058aed7c  04 55 40 00 94 ed 8a 05 - 01 00 00 00 00 00 00 00  .U@.............
+058aed8c  00 00 00 00 00 00 00 00 - 14 ee 8a 05 4e 68 86 00  ............Nh..
+058aed9c  14 ee 8a 05 1c ee 8a 05 - 04 55 40 00 14 ee 8a 05  .........U@.....
+058aedac  d0 2b 5d 05 9c 4b 63 00 - 01 00 00 00 00 00 00 00  .+]..Kc.........
+058aedbc  00 00 00 00 00 00 00 00 - 00 00 00 00 00 00 00 00  ................
+058aedcc  00 00 00 00 00 00 00 00 - 00 00 00 00 00 00 00 00  ................
+058aeddc  00 00 00 00 00 00 00 00 - 00 00 00 00 00 00 00 00  ................
+058aedec  00 00 00 00 00 00 00 00 - 00 00 00 00 00 00 00 00  ................
+058aedfc  00 00 00 00 00 00 00 00 - 00 00 00 00 00 00 00 00  ................
+058aee0c  00 00 00 00 d0 2b 5d 05 - 70 ee 8a 05 03 55 a6 00  .....+].p....U..
+058aee1c  78 ee 8a 05 04 55 40 00 - 70 ee 8a 05 d0 2b 5d 05  x....U@.p....+].
+058aee2c  9c 4b 63 00 01 00 00 00 - 00 00 00 00 00 00 00 00  .Kc.............
+058aee3c  00 00 00 00 79 ee 8a 05 - 01 00 00 00 af ee 65 00  ....y.........e.
+058aee4c  00 00 00 00 00 00 00 00 - 00 00 00 00 00 00 00 00  ................
+058aee5c  5c 02 00 00 d0 2b 5d 05 - d0 2b 5d 05 00 00 00 00  \....+]..+].....
+058aee6c  00 00 00 00 88 ee 8a 05 - f0 66 86 00 b4 ee 8a 05  .........f......
+058aee7c  04 55 40 00 88 ee 8a 05 - d0 2b 5d 05 60 83 6c 05  .U@......+].`.l.
+058aee8c  54 47 a6 00 00 00 00 00 - cc ee 8a 05 18 76 80 02  TG...........v..
+
+disassembling:
+[...]
+0097e999                esi
+0097e99a                edi
+0097e99b                edi, ecx
+0097e99d                ebx, edx
+0097e99f                esi, eax
+0097e9a1 5946           edx, ebx
+0097e9a3                eax, esi
+0097e9a5                -$372 ($97e638)        ; BcSession.TFileSession.GetContents
+0097e9aa                edx, [eax+8]
+0097e9ad                eax, edi
+0097e9af      >         -$576a20 ($407f94)     ; System.@IntfCopy
+0097e9b4 5947           edi
+0097e9b5                esi
+0097e9b6                ebx
+0097e9b7
+

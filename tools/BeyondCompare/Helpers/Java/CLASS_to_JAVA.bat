@@ -1,0 +1,1 @@
+Helpers\Java\jad.exe -p %1 > %2
