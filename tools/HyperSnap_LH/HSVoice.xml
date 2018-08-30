@@ -1,0 +1,93 @@
+<GRAMMAR LANGID="409">
+    <DEFINE>
+        <ID NAME="VID_FullScr" VAL="1"/>
+        <ID NAME="VID_VDesk"   VAL="2"/>
+        <ID NAME="VID_Window"  VAL="3"/>
+        <ID NAME="VID_ActWin"  VAL="4"/>
+        <ID NAME="VID_ActCli"  VAL="5"/>
+        <ID NAME="VID_Region"  VAL="6"/>
+        <ID NAME="VID_PanReg"  VAL="7"/>
+        <ID NAME="VID_MultReg" VAL="8"/>
+        <ID NAME="VID_RptCap"  VAL="9"/>
+        <ID NAME="VID_MicOff"  VAL="10"/>
+        <ID NAME="VID_Activate"  VAL="11"/>
+        <ID NAME="VID_Minimize"  VAL="12"/>
+        <ID NAME="VID_Maximize"  VAL="13"/>
+
+		<ID NAME="VID_LineTool"   VAL = "1001"/>
+		<ID NAME="VID_PencilTool" VAL = "1002"/>
+
+		<ID NAME="VID_Help" VAL = "999"/>
+
+        <ID NAME="VID_SnapTarget" VAL="253"/>
+        <ID NAME="VID_Snaps" VAL="254"/>
+		<ID NAME="VID_DrawTools" VAL="255"/>
+        <ID NAME="VID_Tool" VAL="256"/>
+		<ID NAME="VID_GlobCmds" VAL="257"/>
+    </DEFINE>
+
+    <RULE ID="VID_GlobCmds" TOPLEVEL="ACTIVE">
+		<O> HyperSnap</O>
+        <L PROPID="VID_GlobCmds">
+            <P VAL="VID_MicOff">microphone off</P>
+			<P VAL="VID_Activate"> <L><P>activate</P> <P>restore</P> </L> </P>
+			<P VAL="VID_Minimize"> <L><P>minimize</P> <P>iconize</P> </L></P>
+			<P VAL="VID_Maximize"> maximize </P>
+			<P VAL="VID_Help"> <L><P>help</P> <P>what can I say?</P> </L> </P>
+        </L>
+    </RULE>
+
+    <RULE ID="VID_DrawTools" TOPLEVEL="ACTIVE">
+        <P>
+            <L>
+				<P>Take</P>
+				<P>Get</P>
+            </L>
+        </P>
+        <O>the</O>
+        <RULEREF REFID="VID_Tool" /> 
+    </RULE>
+
+	<RULE ID="VID_Tool" >
+        <L PROPID="VID_Tool">
+            <P VAL="VID_LineTool">line</P>
+            <P VAL="VID_PencilTool">pencil</P>
+        </L>
+    </RULE>
+
+    <RULE ID="VID_Snaps" TOPLEVEL="ACTIVE">
+        <P>
+			<O>HyperSnap</O>
+            <L>
+                <P>Snap</P>
+                <P>Capture</P>
+            </L>
+        </P>
+        <O>the</O>
+        <RULEREF REFID="VID_SnapTarget" /> 
+    </RULE>
+    
+	<RULE ID="VID_SnapTarget" >
+        <L PROPID="VID_SnapTarget">
+            <P VAL="VID_FullScr">full screen</P>
+            <P VAL="VID_VDesk">desktop</P>
+            <P VAL="VID_Window">window</P>
+            <P VAL="VID_ActWin">active window</P>
+            <P VAL="VID_ActCli">active client</P>
+            <P VAL="VID_Region">
+				<L> <P>region</P> <P>rectangle</P> </L>
+			</P>
+            <P VAL="VID_PanReg">
+				<L>
+					<P>pan</P>
+					<P>move</P>
+				</L>
+				<O>last</O>
+				<L> <P>region</P> <P>rectangle</P> </L>
+			</P>
+            <P VAL="VID_MultReg"> <L> <P>multi region</P> <P>multiple region</P> </L> </P>
+            <P VAL="VID_RptCap">repeat</P>
+        </L>
+    </RULE>
+
+</GRAMMAR>
