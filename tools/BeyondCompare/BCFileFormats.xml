@@ -1393,7 +1393,7 @@
 	</TTextFormat>
 	<TTextFormat Value="Java Class to Source Tidied">
 		<ConvertKind Value="convertApp"/>
-		<ConvertLoadApp Value="Helpers\Java\CLASS_to_JAVA_tidied123.bat %s %t"/>
+		<ConvertLoadApp Value="Helpers\Java\CLASS_to_JAVA_tidied.bat %s %t"/>
 		<ConvertNoEdit Value="True"/>
 		<Description>
 			<_0 Value="- Compares Java class files decompiled to tidied source."/>

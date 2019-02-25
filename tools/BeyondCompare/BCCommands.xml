@@ -18,15 +18,6 @@
 			<ViewBar Value="TopDock;;;3"/>
 		</Toolbars>
 	</THexCompareCommands>
-	<TRegCompareCommands>
-		<Toolbars>
-			<SessionsBar Value="TopDock;;;0"/>
-			<DisplayFiltersBar Value="TopDock;;;1"/>
-			<EditBar Value="TopDock;;;2"/>
-			<SearchBar Value="TopDock;;;3"/>
-			<ViewBar Value="TopDock;;;4"/>
-		</Toolbars>
-	</TRegCompareCommands>
 	<TTextCompareCommands>
 		<Toolbars>
 			<SessionsBar Value="TopDock;;;0"/>
@@ -36,13 +27,4 @@
 			<ViewBar Value="TopDock;;;4"/>
 		</Toolbars>
 	</TTextCompareCommands>
-	<TVerCompareCommands>
-		<Toolbars>
-			<SessionsBar Value="TopDock;;;0"/>
-			<DisplayFiltersBar Value="TopDock;;;1"/>
-			<EditBar Value="TopDock;;;2"/>
-			<SearchBar Value="TopDock;;;3"/>
-			<ViewBar Value="TopDock;;;4"/>
-		</Toolbars>
-	</TVerCompareCommands>
 </BCCommands>
