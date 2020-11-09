@@ -1,0 +1,278 @@
+<keymap version="1" name="Mac OS X copy" parent="Mac OS X">
+  <action id="$LRU">
+    <keyboard-shortcut first-keystroke="ctrl alt r" />
+  </action>
+  <action id="$Redo">
+    <keyboard-shortcut first-keystroke="shift meta z" />
+  </action>
+  <action id="ActivateChangesToolWindow">
+    <keyboard-shortcut first-keystroke="meta 9" />
+  </action>
+  <action id="ActivateDatabaseToolWindow">
+    <keyboard-shortcut first-keystroke="ctrl alt b" />
+  </action>
+  <action id="Annotate">
+    <keyboard-shortcut first-keystroke="ctrl l" />
+  </action>
+  <action id="AutoIndentLines" />
+  <action id="ChangesView.Revert">
+    <keyboard-shortcut first-keystroke="meta alt z" />
+    <keyboard-shortcut first-keystroke="shift meta r" />
+  </action>
+  <action id="CloseActiveTab" />
+  <action id="CloseAllEditorsButActive">
+    <keyboard-shortcut first-keystroke="shift meta o" />
+  </action>
+  <action id="CloseContent">
+    <keyboard-shortcut first-keystroke="meta f4" />
+    <keyboard-shortcut first-keystroke="ctrl meta c" />
+    <keyboard-shortcut first-keystroke="meta w" />
+  </action>
+  <action id="CloseProject">
+    <keyboard-shortcut first-keystroke="ctrl meta f4" />
+    <keyboard-shortcut first-keystroke="meta alt f4" />
+  </action>
+  <action id="CodeCompletion">
+    <keyboard-shortcut first-keystroke="alt slash" />
+  </action>
+  <action id="CommentByBlockComment">
+    <keyboard-shortcut first-keystroke="meta alt slash" />
+  </action>
+  <action id="Compile" />
+  <action id="CompileDirty" />
+  <action id="CompileProject">
+    <keyboard-shortcut first-keystroke="shift meta b" />
+  </action>
+  <action id="Console.History.Next" />
+  <action id="Console.History.Previous" />
+  <action id="CopyThenJumpPaste">
+    <keyboard-shortcut first-keystroke="ctrl i" second-keystroke="ctrl r" />
+  </action>
+  <action id="Coverage">
+    <keyboard-shortcut first-keystroke="shift meta f11" />
+    <keyboard-shortcut first-keystroke="shift f11" />
+  </action>
+  <action id="DebugClass">
+    <keyboard-shortcut first-keystroke="shift ctrl f9" />
+    <keyboard-shortcut first-keystroke="shift meta f9" />
+  </action>
+  <action id="Debugger.ForceEarlyReturn">
+    <keyboard-shortcut first-keystroke="ctrl r" />
+  </action>
+  <action id="Diff.FocusOppositePane">
+    <keyboard-shortcut first-keystroke="alt tab" />
+  </action>
+  <action id="Diff.ShowSettingsPopup" />
+  <action id="Editor LRU">
+    <keyboard-shortcut first-keystroke="ctrl alt r" />
+  </action>
+  <action id="EditorAddOrRemoveCaret">
+    <mouse-shortcut keystroke="shift alt button1" />
+    <mouse-shortcut keystroke="alt button1" />
+  </action>
+  <action id="EditorCloneCaretAbove">
+    <keyboard-shortcut first-keystroke="alt up" />
+  </action>
+  <action id="EditorCloneCaretBelow">
+    <keyboard-shortcut first-keystroke="alt down" />
+  </action>
+  <action id="EditorDeleteToWordEnd">
+    <keyboard-shortcut first-keystroke="alt delete" />
+    <keyboard-shortcut first-keystroke="shift alt back_space" />
+  </action>
+  <action id="EditorMatchBrace">
+    <keyboard-shortcut first-keystroke="shift meta 0" />
+  </action>
+  <action id="EditorMoveDownAndScroll">
+    <keyboard-shortcut first-keystroke="meta down" />
+  </action>
+  <action id="EditorMoveToPageBottom">
+    <keyboard-shortcut first-keystroke="meta page_down" />
+    <keyboard-shortcut first-keystroke="ctrl meta down" />
+  </action>
+  <action id="EditorMoveToPageTop">
+    <keyboard-shortcut first-keystroke="meta page_up" />
+    <keyboard-shortcut first-keystroke="ctrl meta up" />
+  </action>
+  <action id="EditorMoveUpAndScroll">
+    <keyboard-shortcut first-keystroke="meta up" />
+  </action>
+  <action id="EditorNextWordInDifferentHumpsModeWithSelection">
+    <keyboard-shortcut first-keystroke="shift ctrl w" />
+  </action>
+  <action id="EditorPreviousWordInDifferentHumpsMode">
+    <keyboard-shortcut first-keystroke="ctrl b" />
+  </action>
+  <action id="EditorScrollDown" />
+  <action id="EditorScrollUp" />
+  <action id="EditorSelectLine">
+    <keyboard-shortcut first-keystroke="shift ctrl v" />
+  </action>
+  <action id="EditorSelectWord">
+    <keyboard-shortcut first-keystroke="meta s" />
+  </action>
+  <action id="EditorTextEnd">
+    <keyboard-shortcut first-keystroke="meta end" />
+    <keyboard-shortcut first-keystroke="ctrl meta right" />
+  </action>
+  <action id="EditorTextStart">
+    <keyboard-shortcut first-keystroke="meta home" />
+    <keyboard-shortcut first-keystroke="ctrl meta left" />
+  </action>
+  <action id="EditorToggleInsertState">
+    <keyboard-shortcut first-keystroke="ctrl meta o" />
+  </action>
+  <action id="EditorToggleShowLineNumbers">
+    <keyboard-shortcut first-keystroke="shift meta l" />
+  </action>
+  <action id="EditorUnSelectWord">
+    <keyboard-shortcut first-keystroke="shift meta s" />
+  </action>
+  <action id="ExtractInterface">
+    <keyboard-shortcut first-keystroke="meta alt i" />
+  </action>
+  <action id="FindNext">
+    <keyboard-shortcut first-keystroke="f3" />
+  </action>
+  <action id="Git.CompareWithBranch">
+    <keyboard-shortcut first-keystroke="shift meta d" />
+  </action>
+  <action id="Git.Revert">
+    <keyboard-shortcut first-keystroke="shift meta r" />
+  </action>
+  <action id="HideCoverage">
+    <keyboard-shortcut first-keystroke="meta alt f5" />
+  </action>
+  <action id="HippieBackwardCompletion" />
+  <action id="HippieCompletion" />
+  <action id="Images.EditExternally" />
+  <action id="Images.Thumbnails.UpFolder" />
+  <action id="ImplementMethods">
+    <keyboard-shortcut first-keystroke="meta i" />
+    <keyboard-shortcut first-keystroke="ctrl meta i" />
+  </action>
+  <action id="Jdbc.OpenConsole" />
+  <action id="Jdbc.RunSqlScript" />
+  <action id="Jpa.OpenConsole" />
+  <action id="JumpToLastChange">
+    <keyboard-shortcut first-keystroke="shift meta back_space" />
+    <keyboard-shortcut first-keystroke="meta l" />
+    <keyboard-shortcut first-keystroke="meta alt back_space" />
+  </action>
+  <action id="JumpToNextChange">
+    <keyboard-shortcut first-keystroke="ctrl meta back_space" />
+  </action>
+  <action id="Maven.ReimportProject">
+    <keyboard-shortcut first-keystroke="shift meta alt r" />
+  </action>
+  <action id="OpenFile">
+    <keyboard-shortcut first-keystroke="ctrl alt o" />
+  </action>
+  <action id="PlaybackLastMacro">
+    <keyboard-shortcut first-keystroke="ctrl p" />
+  </action>
+  <action id="QuickEvaluateExpression">
+    <keyboard-shortcut first-keystroke="meta alt f8" />
+  </action>
+  <action id="QuickJavaDoc">
+    <mouse-shortcut keystroke="control button2" />
+  </action>
+  <action id="ReformatCode">
+    <keyboard-shortcut first-keystroke="meta alt l" />
+    <keyboard-shortcut first-keystroke="shift meta f" />
+  </action>
+  <action id="RenameFile">
+    <keyboard-shortcut first-keystroke="shift f5" />
+  </action>
+  <action id="ReopenClosedTab">
+    <keyboard-shortcut first-keystroke="shift meta w" />
+  </action>
+  <action id="RunClass">
+    <keyboard-shortcut first-keystroke="shift ctrl f10" />
+    <keyboard-shortcut first-keystroke="shift meta f10" />
+  </action>
+  <action id="RunCoverage">
+    <keyboard-shortcut first-keystroke="shift ctrl f11" />
+  </action>
+  <action id="RunTargetAction" />
+  <action id="SafeDelete">
+    <keyboard-shortcut first-keystroke="meta delete" />
+    <keyboard-shortcut first-keystroke="meta back_space" />
+  </action>
+  <action id="SaveAll" />
+  <action id="ShowBookmarks" />
+  <action id="SmartTypeCompletion">
+    <keyboard-shortcut first-keystroke="shift alt slash" />
+  </action>
+  <action id="SplitHorizontally">
+    <keyboard-shortcut first-keystroke="ctrl meta h" />
+  </action>
+  <action id="SplitVertically">
+    <keyboard-shortcut first-keystroke="ctrl meta v" />
+  </action>
+  <action id="StartStopMacroRecording">
+    <keyboard-shortcut first-keystroke="ctrl s" />
+  </action>
+  <action id="StructuralSearchPlugin.StructuralSearchAction" />
+  <action id="SwitchApply">
+    <keyboard-shortcut first-keystroke="ctrl alt enter" />
+  </action>
+  <action id="SwitchDown">
+    <keyboard-shortcut first-keystroke="ctrl alt down" />
+  </action>
+  <action id="SwitchLeft">
+    <keyboard-shortcut first-keystroke="ctrl alt left" />
+  </action>
+  <action id="SwitchRight">
+    <keyboard-shortcut first-keystroke="ctrl alt right" />
+  </action>
+  <action id="SwitchUp">
+    <keyboard-shortcut first-keystroke="ctrl alt up" />
+  </action>
+  <action id="TagDocumentationNavigation" />
+  <action id="Uml.ShowDiff" />
+  <action id="Unsplit">
+    <keyboard-shortcut first-keystroke="ctrl meta u" />
+  </action>
+  <action id="VimPluginToggle">
+    <keyboard-shortcut first-keystroke="ctrl alt m" />
+    <keyboard-shortcut first-keystroke="ctrl semicolon" />
+  </action>
+  <action id="editRunConfigurations">
+    <keyboard-shortcut first-keystroke="shift meta j" />
+  </action>
+  <action id="emacsIDEAs.AceJump" />
+  <action id="emacsIDEAs.AceJumpAndReplace.Word" />
+  <action id="emacsIDEAs.AceJumpCopy.Block" />
+  <action id="emacsIDEAs.AceJumpCopy.Group" />
+  <action id="emacsIDEAs.AceJumpCopy.Line" />
+  <action id="emacsIDEAs.AceJumpCopy.Paragraph" />
+  <action id="emacsIDEAs.AceJumpCopy.Quote" />
+  <action id="emacsIDEAs.AceJumpCopy.String" />
+  <action id="emacsIDEAs.AceJumpCopy.ToLineEnd" />
+  <action id="emacsIDEAs.AceJumpCopy.ToLineStart" />
+  <action id="emacsIDEAs.AceJumpCopy.ToParagraphEnd" />
+  <action id="emacsIDEAs.AceJumpCopy.ToParagraphStart" />
+  <action id="emacsIDEAs.AceJumpCopy.Word" />
+  <action id="emacsIDEAs.AceJumpDelete.Block" />
+  <action id="emacsIDEAs.AceJumpDelete.Group" />
+  <action id="emacsIDEAs.AceJumpDelete.Line" />
+  <action id="emacsIDEAs.AceJumpDelete.Paragraph" />
+  <action id="emacsIDEAs.AceJumpDelete.Quote" />
+  <action id="emacsIDEAs.AceJumpDelete.String" />
+  <action id="emacsIDEAs.AceJumpDelete.ToLineEnd" />
+  <action id="emacsIDEAs.AceJumpDelete.ToLineStart" />
+  <action id="emacsIDEAs.AceJumpDelete.ToParagraphEnd" />
+  <action id="emacsIDEAs.AceJumpDelete.ToParagraphStart" />
+  <action id="emacsIDEAs.AceJumpDelete.Word" />
+  <action id="emacsIDEAs.AceJumpSelect">
+    <keyboard-shortcut first-keystroke="ctrl i" second-keystroke="ctrl i" />
+    <keyboard-shortcut first-keystroke="ctrl alt i" />
+  </action>
+  <action id="emacsIDEAs.AceJumpWord">
+    <keyboard-shortcut first-keystroke="ctrl i" second-keystroke="ctrl f" />
+    <keyboard-shortcut first-keystroke="ctrl j" />
+  </action>
+  <action id="javaee.UpdateRunningApplication" />
+  <action id="org.jetbrains.plugins.clojure.actions.RunClojureConsoleAction" />
+</keymap>

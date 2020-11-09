@@ -1,0 +1,134 @@
+<keymap version="1" name="Default copy" parent="$default">
+  <action id="$ChooseTranslatorAction" />
+  <action id="$Redo">
+    <keyboard-shortcut first-keystroke="shift ctrl z" />
+  </action>
+  <action id="ActivateDatabaseToolWindow">
+    <keyboard-shortcut first-keystroke="alt d" />
+  </action>
+  <action id="Annotate">
+    <keyboard-shortcut first-keystroke="ctrl l" />
+  </action>
+  <action id="Back">
+    <keyboard-shortcut first-keystroke="ctrl alt left" />
+    <mouse-shortcut keystroke="button4" />
+    <keyboard-shortcut first-keystroke="shift alt h" />
+  </action>
+  <action id="ChangesView.Move" />
+  <action id="CodeCompletion">
+    <keyboard-shortcut first-keystroke="shift ctrl alt space" />
+  </action>
+  <action id="CompileDirty" />
+  <action id="DebugClass">
+    <keyboard-shortcut first-keystroke="shift ctrl alt f9" />
+  </action>
+  <action id="Debugger.PopFrame">
+    <keyboard-shortcut first-keystroke="alt r" />
+  </action>
+  <action id="EditorResetFontSize">
+    <keyboard-shortcut first-keystroke="alt f" />
+  </action>
+  <action id="EditorScrollDown">
+    <keyboard-shortcut first-keystroke="ctrl down" />
+    <keyboard-shortcut first-keystroke="alt e" />
+  </action>
+  <action id="EditorScrollUp">
+    <keyboard-shortcut first-keystroke="ctrl up" />
+    <keyboard-shortcut first-keystroke="alt y" />
+  </action>
+  <action id="FindNext">
+    <keyboard-shortcut first-keystroke="f3" />
+  </action>
+  <action id="Forward">
+    <keyboard-shortcut first-keystroke="ctrl alt right" />
+    <mouse-shortcut keystroke="button5" />
+    <keyboard-shortcut first-keystroke="shift alt l" />
+  </action>
+  <action id="Git.Commit.And.Push.Executor" />
+  <action id="GotoLine" />
+  <action id="Hg.Commit.And.Push.Executor" />
+  <action id="HideAllWindows">
+    <keyboard-shortcut first-keystroke="shift ctrl f12" />
+    <keyboard-shortcut first-keystroke="shift ctrl f11" />
+  </action>
+  <action id="JumpToNextChange">
+    <keyboard-shortcut first-keystroke="shift alt back_space" />
+  </action>
+  <action id="Kotlin.RunScratch" />
+  <action id="MethodDown">
+    <keyboard-shortcut first-keystroke="alt down" />
+    <keyboard-shortcut first-keystroke="alt m" />
+  </action>
+  <action id="MethodUp">
+    <keyboard-shortcut first-keystroke="alt up" />
+    <keyboard-shortcut first-keystroke="shift alt m" />
+  </action>
+  <action id="NextOccurence">
+    <keyboard-shortcut first-keystroke="ctrl alt down" />
+    <keyboard-shortcut first-keystroke="ctrl alt j" />
+  </action>
+  <action id="OpenProjectWindows">
+    <keyboard-shortcut first-keystroke="ctrl alt w" />
+  </action>
+  <action id="PasteMultiple">
+    <keyboard-shortcut first-keystroke="shift ctrl insert" />
+  </action>
+  <action id="PreviousOccurence">
+    <keyboard-shortcut first-keystroke="ctrl alt up" />
+    <keyboard-shortcut first-keystroke="ctrl alt k" />
+  </action>
+  <action id="Resume">
+    <keyboard-shortcut first-keystroke="ctrl f9" />
+    <keyboard-shortcut first-keystroke="f9" />
+  </action>
+  <action id="RevealIn">
+    <keyboard-shortcut first-keystroke="alt z" />
+  </action>
+  <action id="RunClass">
+    <keyboard-shortcut first-keystroke="shift ctrl alt f10" />
+  </action>
+  <action id="SaveAsTemplate">
+    <keyboard-shortcut first-keystroke="shift ctrl s" />
+  </action>
+  <action id="SelectNextOccurrence">
+    <keyboard-shortcut first-keystroke="alt g" />
+  </action>
+  <action id="SplitVertically">
+    <keyboard-shortcut first-keystroke="alt l" />
+  </action>
+  <action id="StringManipulation.RemoveDuplicateLines">
+    <keyboard-shortcut first-keystroke="alt u" />
+  </action>
+  <action id="StructuralSearchPlugin.StructuralSearchAction">
+    <keyboard-shortcut first-keystroke="alt s" />
+  </action>
+  <action id="SurroundWith">
+    <keyboard-shortcut first-keystroke="alt t" />
+  </action>
+  <action id="SurroundWithLiveTemplate" />
+  <action id="ToggleFullScreen">
+    <keyboard-shortcut first-keystroke="ctrl alt q" />
+  </action>
+  <action id="UnselectPreviousOccurrence">
+    <keyboard-shortcut first-keystroke="shift alt g" />
+  </action>
+  <action id="Vcs.Log.FocusTextFilter" />
+  <action id="Vcs.MoveChangedLinesToChangelist" />
+  <action id="Vcs.ToggleAmendCommitMode" />
+  <action id="VcsShowNextChangeMarker">
+    <keyboard-shortcut first-keystroke="shift ctrl alt down" />
+    <keyboard-shortcut first-keystroke="shift alt j" />
+  </action>
+  <action id="VcsShowPrevChangeMarker">
+    <keyboard-shortcut first-keystroke="shift ctrl alt up" />
+    <keyboard-shortcut first-keystroke="shift alt k" />
+  </action>
+  <action id="VimPluginToggle">
+    <keyboard-shortcut first-keystroke="shift ctrl v" />
+  </action>
+  <action id="context.load" />
+  <action id="editRunConfigurations">
+    <keyboard-shortcut first-keystroke="shift alt e" />
+  </action>
+  <action id="hg4idea.QGotoFromPatches" />
+</keymap>

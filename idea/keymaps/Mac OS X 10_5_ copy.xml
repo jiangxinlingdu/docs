@@ -1,0 +1,89 @@
+<keymap version="1" name="Mac OS X 10.5+ copy" parent="Mac OS X 10.5+">
+  <action id="$LRU">
+    <keyboard-shortcut first-keystroke="ctrl semicolon" second-keystroke="ctrl r" />
+    <keyboard-shortcut first-keystroke="ctrl semicolon" second-keystroke="r" />
+  </action>
+  <action id="Annotate">
+    <keyboard-shortcut first-keystroke="ctrl semicolon" second-keystroke="ctrl a" />
+    <keyboard-shortcut first-keystroke="ctrl semicolon" second-keystroke="a" />
+  </action>
+  <action id="ChangesView.Revert">
+    <keyboard-shortcut first-keystroke="meta alt z" />
+    <keyboard-shortcut first-keystroke="ctrl alt z" />
+  </action>
+  <action id="CloseProject">
+    <keyboard-shortcut first-keystroke="ctrl semicolon" second-keystroke="c" />
+  </action>
+  <action id="CodeCompletion">
+    <keyboard-shortcut first-keystroke="ctrl space" />
+    <keyboard-shortcut first-keystroke="alt slash" />
+  </action>
+  <action id="Editor LRU">
+    <keyboard-shortcut first-keystroke="ctrl semicolon" second-keystroke="ctrl r" />
+    <keyboard-shortcut first-keystroke="ctrl semicolon" second-keystroke="r" />
+  </action>
+  <action id="EditorCloneCaretAbove">
+    <keyboard-shortcut first-keystroke="alt up" />
+  </action>
+  <action id="EditorCloneCaretBelow">
+    <keyboard-shortcut first-keystroke="alt down" />
+  </action>
+  <action id="EditorSelectWord">
+    <keyboard-shortcut first-keystroke="meta s" />
+  </action>
+  <action id="EditorUnSelectWord">
+    <keyboard-shortcut first-keystroke="shift meta s" />
+  </action>
+  <action id="GuiDesigner.ShrinkSelection">
+    <keyboard-shortcut first-keystroke="shift meta s" />
+  </action>
+  <action id="HippieCompletion" />
+  <action id="OpenFile">
+    <keyboard-shortcut first-keystroke="ctrl semicolon" second-keystroke="ctrl o" />
+    <keyboard-shortcut first-keystroke="ctrl semicolon" second-keystroke="o" />
+  </action>
+  <action id="QuickJavaDoc">
+    <keyboard-shortcut first-keystroke="f1" />
+    <mouse-shortcut keystroke="control button2" />
+  </action>
+  <action id="Resume">
+    <keyboard-shortcut first-keystroke="meta alt r" />
+    <keyboard-shortcut first-keystroke="f9" />
+  </action>
+  <action id="SaveAll" />
+  <action id="SwitchApply">
+    <keyboard-shortcut first-keystroke="ctrl alt enter" />
+  </action>
+  <action id="SwitchDown">
+    <keyboard-shortcut first-keystroke="ctrl alt down" />
+  </action>
+  <action id="SwitchLeft">
+    <keyboard-shortcut first-keystroke="ctrl alt left" />
+  </action>
+  <action id="SwitchRight">
+    <keyboard-shortcut first-keystroke="ctrl alt right" />
+  </action>
+  <action id="SwitchUp">
+    <keyboard-shortcut first-keystroke="ctrl alt up" />
+  </action>
+  <action id="Vcs.RollbackChangedLines">
+    <keyboard-shortcut first-keystroke="meta alt z" />
+    <keyboard-shortcut first-keystroke="ctrl alt z" />
+  </action>
+  <action id="VimPluginToggle">
+    <keyboard-shortcut first-keystroke="meta alt v" />
+    <keyboard-shortcut first-keystroke="ctrl semicolon" second-keystroke="ctrl v" />
+    <keyboard-shortcut first-keystroke="ctrl semicolon" second-keystroke="v" />
+    <keyboard-shortcut first-keystroke="ctrl semicolon" second-keystroke="semicolon" />
+  </action>
+  <action id="emacsIDEAs.AceJumpCopy.Block" />
+  <action id="emacsIDEAs.AceJumpCopy.Line" />
+  <action id="emacsIDEAs.AceJumpCopy.Paragraph" />
+  <action id="emacsIDEAs.AceJumpCopy.Quote" />
+  <action id="emacsIDEAs.AceJumpCopy.String" />
+  <action id="emacsIDEAs.AceJumpCopy.ToLineEnd" />
+  <action id="emacsIDEAs.AceJumpCopy.ToLineStart" />
+  <action id="emacsIDEAs.AceJumpCopy.ToParagraphEnd" />
+  <action id="emacsIDEAs.AceJumpCopy.ToParagraphStart" />
+  <action id="emacsIDEAs.AceJumpCopy.Word" />
+</keymap>
